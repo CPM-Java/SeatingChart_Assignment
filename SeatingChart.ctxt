@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=studentNames
+comment0.target=SeatingChart(java.lang.String[][])
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ SeatingChart\n\ \n\ @param\ \ studentNames\ \ \ a\ 2-D\ array\ of\ Strings\ representing\ student\ names\n
+comment1.params=
+comment1.target=void\ clearChart()
+comment1.text=\n\ Fills\ the\ instance\ 2-D\ array\ of\ Strings\ with\ null\ values\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Generates\ and\ returns\ a\ String\ representation\ of\ the\ seating\ chart\n\ \n\ @return\ \ \ \ \ a\ String\ representation\ of\ the\ seating\ chart\ \n
+comment3.params=name\ roomRow\ depth
+comment3.target=java.lang.String\ addStudent(java.lang.String,\ int,\ int)
+comment3.text=\n\ Recieves\ from\ the\ client\ the\ name\ and\ location\ of\ the\ new\ 'student'.\n\ Accepts\ data\ from\ the\ teachers\ perspective\ of\ row\ and\ desk\ number.\n\ \ \ \ (teachers\ do\ not\ begin\ row\ numbers\ at\ zero\ like\ a\ programmer\ would)\n\ Warns\ the\ teacher\ if\ the\ desk\ is\ already\ occupied\ or\ the\ location\ invalid\n\ \ \ otherwise\ places\ the\ 'student'\ in\ the\ location.\n\ \n\ @param\ \ name\ \ \ a\ String\ representing\ the\ student's\ name\n\ @param\ \ roomRow\ \ \ row\ number\ (1\ to\ myCols+1)\ from\ the\ teacher's\ perspective\ (L\ to\ R)\n\ @param\ \ depth\ \ \ seat\ number\ from\ front\ to\ back\ (1\ to\ myRows+1)\n\ @return\ \ \ \ \ a\ String\ detailing\ the\ status\ of\ the\ operation\ \n
+comment4.params=roomRow\ depth
+comment4.target=java.lang.String\ removeStudent(int,\ int)
+comment4.text=\n\ Recieves\ from\ the\ client\ the\ location\ of\ the\ 'student'\ to\ be\ removed.\n\ Accepts\ data\ from\ the\ teachers\ perspective\ of\ row\ and\ desk\ number.\n\ \ \ \ (teachers\ do\ not\ begin\ row\ numbers\ at\ zero\ like\ a\ programmer\ would)\n\ Warns\ the\ teacher\ if\ the\ desk\ is\ empty\ or\ the\ location\ invalid\n\ \ \ otherwise\ removes\ the\ 'student'\ from\ the\ location.\n\ \n\ @param\ \ roomRow\ \ \ row\ number\ (1\ to\ myCols+1)\ from\ the\ teacher's\ perspective\ (L\ to\ R)\n\ @param\ \ depth\ \ \ seat\ number\ from\ front\ to\ back\ (1\ to\ myRows+1)\n\ @return\ \ \ \ \ a\ String\ detailing\ the\ status\ of\ the\ operation\ \n
+comment5.params=
+comment5.target=void\ randomize()
+comment5.text=\n\ Moves\ students\ to\ pseudo-random\ locations.\n\ Every\ student\ in\ the\ chart\ has\ a\ chance\ to\ move.\n\ Empty\ seats\ remain\ empty.\n
+comment6.params=d\ r\ x\ y
+comment6.target=void\ swap(int,\ int,\ int,\ int)
+numComments=7
